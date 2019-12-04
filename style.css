@@ -1,6 +1,24 @@
 body {
     font-family: arial, sans-serif;
 }
+nav {
+    font-size: 10pt;
+}
+#navRight{
+    position: absolute;
+    float: right;
+    top: 24px;
+    right: 20px;
+}
+#navLeft {
+    position: absolute;
+    float: left;
+    top: 24px;
+    left: 20px;
+}
+a {
+    margin: 10px;
+}
 .center {
     display: block;
     margin-top: 89px;
@@ -17,30 +35,6 @@ form {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    
-}
-#searchBar {
-    width: 582px;
-    height: 36px;
-    font-size: 25px;
-}
-#navRight{
-    position: absolute;
-    float: right;
-    top: 1em;
-    right: 1em;
-}
-#navLeft {
-    position: absolute;
-    float: left;
-    top: 1em;
-    left: 1em;
-}
-#buttons {
-    height: 36px;
-    width: 132px;
-    border-radius: 2px;
-    margin: 5px;
 }
 footer {
     position: fixed;
@@ -50,6 +44,9 @@ footer {
     height: 40px;
     font-size: 10pt;
     background-color: #f2f2f2;
+    color: #000;
+    opacity: 0.75;
+    border-top: 1px solid #e4e4e4;
 }
 #footerLeft {
     margin: 10px 20px;
@@ -59,7 +56,47 @@ footer {
 }
 a:link {
     text-decoration: none;
+    color: #000;
+    opacity: 0.75;
 }
 a:hover {
     text-decoration: underline;
+}
+a:visited {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+input[type="submit"] {
+    height: 36px;
+    width: 132px;
+    border-radius: 2px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: none;
+    color: #000;
+    opacity: 0.75;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    height: 36px;
+    width: 132px;
+    border-radius: 2px;
+    margin: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6
+}
+input[type="text"] {
+    width: 582px;
+    height: 36px;
+    font-size: 25px;
+    border: 1px solid #c6c6c6
+}
+input[type="text"]:hover {
+    box-shadow: 0 1px 4px 2px rgba(0,0,0,0.1);
+    width: 582px;
+    height: 36px;
+    font-size: 25px;
+    border-radius: 2px;
+    border: 1px solid #c6c6c6
 }
