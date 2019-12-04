@@ -1,3 +1,6 @@
+body {
+    font-family: arial, sans-serif;
+}
 .center {
     display: block;
     margin-top: 89px;
@@ -17,5 +20,46 @@ form {
     
 }
 #searchBar {
-    width: 550px;
+    width: 582px;
+    height: 36px;
+    font-size: 25px;
+}
+#navRight{
+    position: absolute;
+    float: right;
+    top: 1em;
+    right: 1em;
+}
+#navLeft {
+    position: absolute;
+    float: left;
+    top: 1em;
+    left: 1em;
+}
+#buttons {
+    height: 36px;
+    width: 132px;
+    border-radius: 2px;
+    margin: 5px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    font-size: 10pt;
+    background-color: #f2f2f2;
+}
+#footerLeft {
+    margin: 10px 20px;
+}
+#footerRight {
+    margin: 10px 20px;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
