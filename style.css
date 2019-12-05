@@ -90,6 +90,7 @@ input[type="text"] {
     width: 582px;
     height: 36px;
     font-size: 25px;
+    border-radius: 25px;
     border: 1px solid #c6c6c6
 }
 input[type="text"]:hover {
@@ -97,6 +98,15 @@ input[type="text"]:hover {
     width: 582px;
     height: 36px;
     font-size: 25px;
-    border-radius: 2px;
+    border-radius: 25px;
     border: 1px solid #c6c6c6
+}
+#searchBar {
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
