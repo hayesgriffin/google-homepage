@@ -107,3 +107,15 @@ ul {
     padding: 0;
     display: flex;
 }
+#signIn {
+    width:80px; 
+    height:30px; 
+    margin:-8px; 
+    margin-left:5px; 
+    background-color: #4285F4;
+    color:white;
+    font-size: 15px;
+}
+#apps {
+    opacity: 75%;
+}
